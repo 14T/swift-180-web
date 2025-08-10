@@ -5,7 +5,6 @@ import TransformationSection from '@/components/landing/transformation-section';
 import OnboardingSection from '@/components/landing/onboarding-section';
 import EntertainmentSection from '@/components/landing/entertainment-section';
 import StreamingAppsSection from '@/components/landing/streaming-apps-section';
-import AiDiscoverySection from '@/components/landing/ai-discovery-section';
 import TestimonialsSection from '@/components/landing/testimonials-section';
 import TravelFeaturesSection from '@/components/landing/travel-features-section';
 import CtaSection from '@/components/landing/cta-section';
@@ -23,7 +22,6 @@ export default function Home() {
         <EntertainmentSection />
         <StreamingAppsSection />
         <OnboardingSection />
-        <AiDiscoverySection />
         <TestimonialsSection />
         <CtaSection />
       </main>

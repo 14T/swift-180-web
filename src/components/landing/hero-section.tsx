@@ -23,10 +23,10 @@ export default function HeroSection() {
         </p>
         <div className="flex flex-col gap-4 sm:flex-row">
           <Button size="lg" className="bg-accent text-accent-foreground hover:bg-accent/90" asChild>
-            <a href="#ai-discovery">Experience Swift180</a>
+            <a href="#cta">Request a Demo</a>
           </Button>
-          <Button size="lg" variant="outline">
-            How It Works
+          <Button size="lg" variant="outline" asChild>
+            <a href="#transformation">How It Works</a>
           </Button>
         </div>
       </div>
