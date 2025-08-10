@@ -1,30 +1,7 @@
 import { Star } from 'lucide-react';
 import { Card, CardContent, CardHeader } from '@/components/ui/card';
 import { Avatar, AvatarFallback, AvatarImage } from '@/components/ui/avatar';
-
-const testimonials = [
-  {
-    quote: "Swift180 has been a game-changer for our guest satisfaction scores. The setup was incredibly simple, and our guests love the personalized entertainment options.",
-    name: "Maria Rodriguez",
-    title: "General Manager, The Grand Hotel",
-    avatar: "MR",
-    image: "https://placehold.co/100x100.png"
-  },
-  {
-    quote: "As a frequent traveler, I'm always disappointed by hotel TVs. Swift180 was a breath of fresh air. The AI recommendations for local restaurants were spot on!",
-    name: "David Chen",
-    title: "Business Traveler",
-    avatar: "DC",
-    image: "https://placehold.co/100x100.png"
-  },
-  {
-    quote: "The ability to access my own Netflix and Prime accounts seamlessly made my stay feel so much more like home. A fantastic and much-needed innovation for hotels.",
-    name: "Emily White",
-    title: "Leisure Traveler",
-    avatar: "EW",
-    image: "https://placehold.co/100x100.png"
-  }
-];
+import { testimonials } from '@/lib/constants';
 
 export default function TestimonialsSection() {
   return (

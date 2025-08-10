@@ -1,11 +1,12 @@
 import Image from 'next/image';
 import { Button } from '@/components/ui/button';
+import { HERO_IMAGE_URL } from '@/lib/constants';
 
 export default function HeroSection() {
   return (
     <section className="relative w-full py-20 md:py-32 lg:py-40">
       <Image
-        src="https://placehold.co/1920x1080.png"
+        src={HERO_IMAGE_URL}
         alt="Traveler enjoying in-room entertainment"
         layout="fill"
         objectFit="cover"

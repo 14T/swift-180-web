@@ -1,5 +1,5 @@
-import { Plug, Tv, Wifi } from 'lucide-react';
 import { Card, CardHeader, CardTitle, CardDescription } from '@/components/ui/card';
+import { onboardingSteps } from '@/lib/constants';
 
 export default function OnboardingSection() {
   return (
@@ -14,33 +14,17 @@ export default function OnboardingSection() {
           </div>
         </div>
         <div className="mx-auto mt-12 grid max-w-5xl gap-8 sm:grid-cols-1 md:grid-cols-3">
-          <Card className="text-center">
-            <CardHeader>
-              <div className="mx-auto mb-4 flex h-12 w-12 items-center justify-center rounded-full bg-primary text-primary-foreground">
-                <Plug className="h-6 w-6" />
-              </div>
-              <CardTitle>1. Plug In</CardTitle>
-              <CardDescription>Connect the SwiftStick™ to the TV's HDMI port.</CardDescription>
-            </CardHeader>
-          </Card>
-          <Card className="text-center">
-            <CardHeader>
-              <div className="mx-auto mb-4 flex h-12 w-12 items-center justify-center rounded-full bg-primary text-primary-foreground">
-                <Wifi className="h-6 w-6" />
-              </div>
-              <CardTitle>2. Connect</CardTitle>
-              <CardDescription>Connect the device to your hotel's Wi-Fi network.</CardDescription>
-            </CardHeader>
-          </Card>
-          <Card className="text-center">
-            <CardHeader>
-              <div className="mx-auto mb-4 flex h-12 w-12 items-center justify-center rounded-full bg-primary text-primary-foreground">
-                <Tv className="h-6 w-6" />
-              </div>
-              <CardTitle>3. Enjoy</CardTitle>
-              <CardDescription>Guests can now enjoy a world of entertainment.</CardDescription>
-            </CardHeader>
-          </Card>
+          {onboardingSteps.map((step) => (
+            <Card key={step.title} className="text-center">
+              <CardHeader>
+                <div className="mx-auto mb-4 flex h-12 w-12 items-center justify-center rounded-full bg-primary text-primary-foreground">
+                  <step.icon className="h-6 w-6" />
+                </div>
+                <CardTitle>{step.title}</CardTitle>
+                <CardDescription>{step.description}</CardDescription>
+              </CardHeader>
+            </Card>
+          ))}
         </div>
       </div>
     </section>

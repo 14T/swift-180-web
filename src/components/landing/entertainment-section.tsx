@@ -1,4 +1,4 @@
-import { Film, Gamepad2, Radio, Tv2 } from 'lucide-react';
+import { entertainmentItems } from '@/lib/constants';
 
 export default function EntertainmentSection() {
   return (
@@ -14,34 +14,15 @@ export default function EntertainmentSection() {
           </div>
         </div>
         <div className="mx-auto grid max-w-5xl grid-cols-2 items-start gap-8 py-12 md:grid-cols-4">
-          <div className="grid gap-1 text-center">
-            <div className="mx-auto flex h-16 w-16 items-center justify-center rounded-full bg-primary/10 text-primary">
-              <Film className="h-8 w-8" />
+          {entertainmentItems.map((item) => (
+            <div key={item.title} className="grid gap-1 text-center">
+              <div className="mx-auto flex h-16 w-16 items-center justify-center rounded-full bg-primary/10 text-primary">
+                <item.icon className="h-8 w-8" />
+              </div>
+              <h3 className="text-lg font-bold">{item.title}</h3>
+              <p className="text-sm text-muted-foreground">{item.description}</p>
             </div>
-            <h3 className="text-lg font-bold">Movies</h3>
-            <p className="text-sm text-muted-foreground">Latest releases and timeless classics.</p>
-          </div>
-          <div className="grid gap-1 text-center">
-            <div className="mx-auto flex h-16 w-16 items-center justify-center rounded-full bg-primary/10 text-primary">
-              <Tv2 className="h-8 w-8" />
-            </div>
-            <h3 className="text-lg font-bold">TV Shows</h3>
-            <p className="text-sm text-muted-foreground">Binge-worthy series and popular shows.</p>
-          </div>
-          <div className="grid gap-1 text-center">
-            <div className="mx-auto flex h-16 w-16 items-center justify-center rounded-full bg-primary/10 text-primary">
-              <Radio className="h-8 w-8" />
-            </div>
-            <h3 className="text-lg font-bold">Radio & Podcasts</h3>
-            <p className="text-sm text-muted-foreground">Global stations and trending podcasts.</p>
-          </div>
-          <div className="grid gap-1 text-center">
-            <div className="mx-auto flex h-16 w-16 items-center justify-center rounded-full bg-primary/10 text-primary">
-              <Gamepad2 className="h-8 w-8" />
-            </div>
-            <h3 className="text-lg font-bold">Games</h3>
-            <p className="text-sm text-muted-foreground">Casual games for all ages.</p>
-          </div>
+          ))}
         </div>
       </div>
     </section>

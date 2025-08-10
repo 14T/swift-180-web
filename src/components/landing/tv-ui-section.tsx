@@ -1,5 +1,6 @@
 import Image from 'next/image';
 import { Card, CardContent } from '@/components/ui/card';
+import { TV_UI_IMAGE_URL } from '@/lib/constants';
 
 export default function TvUiSection() {
   return (
@@ -17,7 +18,7 @@ export default function TvUiSection() {
           <Card className="overflow-hidden shadow-2xl">
             <CardContent className="p-0">
               <Image
-                src="https://placehold.co/1200x675.png"
+                src={TV_UI_IMAGE_URL}
                 alt="Swift180 TV UI"
                 width={1200}
                 height={675}

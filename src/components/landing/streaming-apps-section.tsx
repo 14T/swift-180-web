@@ -1,7 +1,9 @@
 "use client";
 
+import { streamingApps } from "@/lib/constants";
+
 export default function StreamingAppsSection() {
-  const apps = ['Netflix', 'Prime Video', 'YouTube', 'Disney+', 'Spotify', 'Hulu'];
+  const apps = streamingApps;
 
   return (
     <section id="apps" className="w-full py-12 md:py-24 lg:py-32">

@@ -1,11 +1,12 @@
 import Image from 'next/image';
 import { Button } from '@/components/ui/button';
+import { CTA_BACKGROUND_IMAGE_URL } from '@/lib/constants';
 
 export default function CtaSection() {
   return (
     <section id="cta" className="relative w-full overflow-hidden bg-primary/90 py-20 text-primary-foreground md:py-32">
        <Image
-        src="https://placehold.co/1920x400.png"
+        src={CTA_BACKGROUND_IMAGE_URL}
         alt="Abstract background"
         layout="fill"
         objectFit="cover"

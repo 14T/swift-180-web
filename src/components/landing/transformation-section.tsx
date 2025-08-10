@@ -1,6 +1,6 @@
 import Image from 'next/image';
-import { Card, CardContent, CardHeader, CardTitle, CardDescription } from '@/components/ui/card';
 import { Zap, Bluetooth } from 'lucide-react';
+import { STREAMING_STICK_IMAGE_URL, BLUETOOTH_REMOTE_IMAGE_URL } from '@/lib/constants';
 
 export default function TransformationSection() {
   return (
@@ -39,7 +39,7 @@ export default function TransformationSection() {
         </div>
         <div className="grid gap-6">
           <Image
-            src="https://placehold.co/600x400.png"
+            src={STREAMING_STICK_IMAGE_URL}
             alt="Swift180 Streaming Stick"
             width={600}
             height={400}
@@ -47,7 +47,7 @@ export default function TransformationSection() {
             data-ai-hint="streaming stick"
           />
           <Image
-            src="https://placehold.co/600x400.png"
+            src={BLUETOOTH_REMOTE_IMAGE_URL}
             alt="Swift180 Bluetooth Remote"
             width={600}
             height={400}

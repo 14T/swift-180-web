@@ -1,6 +1,5 @@
-import { MapPin, Ticket, UtensilsCrossed, Building2 } from 'lucide-react';
-import { Card, CardContent, CardHeader, CardTitle, CardDescription } from '@/components/ui/card';
 import Image from 'next/image';
+import { travelFeatures, TRAVEL_FEATURES_IMAGE_URL } from '@/lib/constants';
 
 export default function TravelFeaturesSection() {
   return (
@@ -8,7 +7,7 @@ export default function TravelFeaturesSection() {
       <div className="container mx-auto grid items-center gap-12 px-4 md:px-6 lg:grid-cols-2 lg:gap-20">
          <div className="relative">
           <Image
-            src="https://placehold.co/600x600.png"
+            src={TRAVEL_FEATURES_IMAGE_URL}
             alt="Traveler exploring a city"
             width={600}
             height={600}
@@ -27,42 +26,17 @@ export default function TravelFeaturesSection() {
             Swift180 enhances the entire travel experience by providing guests with curated information about their surroundings, all powered by our intelligent AI.
           </p>
           <div className="grid gap-6 pt-4 sm:grid-cols-2">
-            <div className="flex items-start gap-4">
-              <div className="rounded-full bg-primary/10 p-3 text-primary">
-                <MapPin className="h-6 w-6" />
+            {travelFeatures.map((feature) => (
+              <div key={feature.title} className="flex items-start gap-4">
+                <div className="rounded-full bg-primary/10 p-3 text-primary">
+                  <feature.icon className="h-6 w-6" />
+                </div>
+                <div>
+                  <h3 className="text-lg font-bold">{feature.title}</h3>
+                  <p className="text-muted-foreground">{feature.description}</p>
+                </div>
               </div>
-              <div>
-                <h3 className="text-lg font-bold">Nearby Attractions</h3>
-                <p className="text-muted-foreground">Discover local gems and must-see sights.</p>
-              </div>
-            </div>
-            <div className="flex items-start gap-4">
-              <div className="rounded-full bg-primary/10 p-3 text-primary">
-                <Ticket className="h-6 w-6" />
-              </div>
-              <div>
-                <h3 className="text-lg font-bold">Book Tours</h3>
-                <p className="text-muted-foreground">Find and book exciting local tours and activities.</p>
-              </div>
-            </div>
-            <div className="flex items-start gap-4">
-              <div className="rounded-full bg-primary/10 p-3 text-primary">
-                <UtensilsCrossed className="h-6 w-6" />
-              </div>
-              <div>
-                <h3 className="text-lg font-bold">Dining Options</h3>
-                <p className="text-muted-foreground">Explore top-rated restaurants and cafes.</p>
-              </div>
-            </div>
-             <div className="flex items-start gap-4">
-              <div className="rounded-full bg-primary/10 p-3 text-primary">
-                <Building2 className="h-6 w-6" />
-              </div>
-              <div>
-                <h3 className="text-lg font-bold">Hotel Services</h3>
-                <p className="text-muted-foreground">Order room service or view hotel promotions.</p>
-              </div>
-            </div>
+            ))}
           </div>
         </div>
       </div>
