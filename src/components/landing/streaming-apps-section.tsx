@@ -34,7 +34,7 @@ export default function StreamingAppsSection() {
           to { transform: translateX(-50%); }
         }
         .animate-marquee-infinite {
-          animation: marquee 40s linear infinite;
+          animation: marquee 25s linear infinite;
         }
       `}</style>
     </section>
