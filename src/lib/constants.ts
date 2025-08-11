@@ -49,8 +49,25 @@ export const onboardingSteps = [
     }
 ];
 
-export const streamingApps = ['Netflix', 'Prime Video', 'YouTube', 'Disney+', 'Spotify', 'Hulu'];
-
+export const streamingApps = [
+    'Netflix',
+    'Prime Video',
+    'YouTube',
+    'Disney+',
+    'Spotify',
+    'Hulu',
+    'Max',
+    'Apple TV+',
+    'ZEE5',
+    'SonyLIV',
+    'JioHotstar',
+    'Crossy Road',
+    'Asphalt 8',
+    'Beach Buggy Racing',
+    'Dead Trigger 2',
+    'Bridge Constructor Portal'
+  ];
+  
 export const travelFeatures = [
     {
         icon: MapPin,
