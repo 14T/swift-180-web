@@ -1,4 +1,4 @@
-import { Building2, Film, Gamepad2, MapPin, Plug, Radio, Ticket, Tv, UtensilsCrossed, Wifi, Calendar, Trophy, Palette, Landmark, ConciergeBell } from 'lucide-react';
+import { Building2, Film, Gamepad2, MapPin, Plug, Radio, Ticket, Tv, UtensilsCrossed, Wifi, Calendar, Trophy, Palette, Landmark, ConciergeBell, PartyPopper } from 'lucide-react';
 
 export const HERO_IMAGE_URL = 'https://images.unsplash.com/photo-1585101806180-4ef6aae2403a?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D';
 export const TV_UI_IMAGE_URL = '/images/1.png';
@@ -9,19 +9,24 @@ export const CTA_BACKGROUND_IMAGE_URL = 'https://images.unsplash.com/photo-14950
 
 export const entertainmentItems = [
     {
-        icon: Calendar,
-        title: "Local Events",
-        description: "Discover festivals, concerts, and markets."
+        icon: Film,
+        title: "Movies & Shows",
+        description: "Stream the latest releases and classic films in 4K."
     },
     {
         icon: Landmark,
         title: "Nearby Attractions",
-        description: "Find local games and outdoor activities."
+        description: "Discover must-see sights and local points of interest."
     },
     {
         icon: ConciergeBell,
         title: "Hotel Facilities",
-        description: "Explore local etiquette, art, and history."
+        description: "Order room service or explore hotel amenities."
+    },
+    {
+        icon: PartyPopper,
+        title: "Events & Deals",
+        description: "Find local happenings and exclusive offers."
     }
 ];
 
