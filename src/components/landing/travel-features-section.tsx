@@ -16,7 +16,7 @@ export default function TravelFeaturesSection() {
           />
          </div>
         <div className="space-y-4">
-          <div className="inline-block rounded-lg bg-secondary/20 px-3 py-1 text-sm font-medium text-secondary-foreground">
+          <div className="inline-block rounded-lg bg-secondary px-3 py-1 text-sm font-medium text-secondary-foreground">
             Guest Experience
           </div>
           <h2 className="font-headline text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">
