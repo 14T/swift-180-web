@@ -3,7 +3,8 @@
 @tailwind utilities;
 
 @layer base {
-  :root {
+  :root,
+  [data-theme="teal"] {
     --background: 165 33% 85%; /* #CBE4DE */
     --foreground: 180 5% 19%; /* #2C3333 */
     --card: 0 0% 100%;
@@ -38,6 +39,51 @@
     --sidebar-border: 220 13% 91%;
     --sidebar-ring: 217.2 91.2% 59.8%;
   }
+
+  [data-theme="forest"] {
+    --background: 200 47% 5%; /* #040D12 */
+    --foreground: 165 17% 84%; /* complement of #93B1A6 */
+    --card: 180 45% 12%;
+    --card-foreground: 165 17% 84%;
+    --popover: 200 47% 3%;
+    --popover-foreground: 165 17% 84%;
+    --primary: 180 45% 17%; /* #183D3D */
+    --primary-foreground: 165 17% 94%;
+    --secondary: 158 18% 44%; /* #5C8374 */
+    --secondary-foreground: 200 47% 10%;
+    --muted: 180 45% 10%;
+    --muted-foreground: 165 17% 64%;
+    --accent: 165 17% 64%; /* #93B1A6 */
+    --accent-foreground: 200 47% 5%;
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 180 45% 15%;
+    --input: 180 45% 15%;
+    --ring: 165 17% 64%;
+  }
+
+  [data-theme="earth"] {
+    --background: 47 49% 88%; /* #ECE5C7 */
+    --foreground: 193 75% 17%;
+    --card: 41 16% 89%;
+    --card-foreground: 193 75% 17%;
+    --popover: 47 49% 92%;
+    --popover-foreground: 193 75% 17%;
+    --primary: 193 75% 27%; /* #116A7B */
+    --primary-foreground: 47 49% 95%;
+    --secondary: 41 16% 74%; /* #CDC2AE */
+    --secondary-foreground: 193 75% 17%;
+    --muted: 47 49% 92%;
+    --muted-foreground: 193 75% 37%;
+    --accent: 175 33% 81%; /* #C2DEDC */
+    --accent-foreground: 193 75% 17%;
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 41 16% 80%;
+    --input: 41 16% 80%;
+    --ring: 193 75% 27%;
+  }
+
   .dark {
     --background: 180 5% 19%; /* #2C3333 */
     --foreground: 165 33% 85%; /* #CBE4DE */
