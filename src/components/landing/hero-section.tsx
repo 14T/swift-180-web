@@ -3,8 +3,8 @@ import { Button } from '@/components/ui/button';
 import { HERO_IMAGE_URL } from '@/lib/constants';
 
 export default function HeroSection() {
-  const demoMailtoLink = "mailto:admin@swift180.com?subject=Request%20for%20Demo&body=I'm%20interested%20in%20a%20demo%20of%20Swift180.%20Please%20provide%20me%20with%20more%20information.";
-  const howItWorksMailtoLink = "mailto:admin@swift180.com?subject=How%20Swift180%20Works&body=I'd%20like%20to%20understand%20more%20about%20how%20Swift180%20works.";
+  const demoMailtoLink = "mailto:admin@swift180.com?subject=Request%20for%20Demo&body=I'm%20interested%20in%20a%20demo%20of%20Swift180.%20Please%20provide%20me%20with%20more%20information.%0D%0A%0D%0ARegards,%0D%0A[Your%20Name%20and%20contact%20information]";
+  const howItWorksMailtoLink = "mailto:admin@swift180.com?subject=How%20Swift180%20Works&body=I'd%20like%20to%20understand%20more%20about%20how%20Swift180%20works.%0D%0A%0D%0ARegards,%0D%0A[Your%20Name%20and%20contact%20information]";
 
   return (
     <section className="relative w-full py-20 md:py-32 lg:py-40 text-white">

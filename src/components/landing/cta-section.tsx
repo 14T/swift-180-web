@@ -3,7 +3,7 @@ import { Button } from '@/components/ui/button';
 import { CTA_BACKGROUND_IMAGE_URL } from '@/lib/constants';
 
 export default function CtaSection() {
-  const mailtoLink = "mailto:admin@swift180.com?subject=Request%20for%20Demo&body=I'm%20interested%20in%20a%20demo%20of%20Swift180.%20Please%20provide%20me%20with%20more%20information.";
+  const mailtoLink = "mailto:admin@swift180.com?subject=Request%20for%20Demo&body=I'm%20interested%20in%20a%20demo%20of%20Swift180.%20Please%20provide%20me%20with%20more%20information.%0D%0A%0D%0ARegards,%0D%0A[Your%20Name%20and%20contact%20information]";
   return (
     <section id="cta" className="relative w-full overflow-hidden bg-primary/90 py-20 text-primary-foreground md:py-32">
        <Image
