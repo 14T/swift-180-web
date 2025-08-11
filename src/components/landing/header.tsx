@@ -13,7 +13,7 @@ export default function Header() {
         </a>
         <div className="flex flex-1 items-center justify-end space-x-2">
           <Button asChild>
-            <a href="#cta">Learn More</a>
+            <a href="mailto:admin@swift180.com">Learn More</a>
           </Button>
         </div>
       </div>

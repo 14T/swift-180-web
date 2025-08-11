@@ -21,8 +21,8 @@ export default function CtaSection() {
           Join the growing number of hotels delighting their guests with Swift180. Get in touch with our team today to schedule a demo and learn how we can tailor a solution for you.
         </p>
         <div className="mt-8">
-          <Button size="lg" variant="secondary" className="bg-accent text-accent-foreground hover:bg-accent/90">
-            Request a Demo
+          <Button size="lg" variant="secondary" className="bg-accent text-accent-foreground hover:bg-accent/90" asChild>
+            <a href="mailto:admin@swift180.com">Request a Demo</a>
           </Button>
         </div>
       </div>
