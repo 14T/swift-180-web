@@ -25,7 +25,7 @@ export default function HeroSection() {
           Swift180 transforms your hotel TV into a personalized 4K entertainment hub. Movies, games, local guides, and more—all at your fingertips.
         </p>
         <div className="flex flex-col gap-4 sm:flex-row">
-          <Button size="lg" className="bg-accent text-accent-foreground hover:bg-accent/90" asChild>
+          <Button size="lg" className="bg-background text-foreground hover:bg-background/90" asChild>
             <a href="#cta">Request a Demo</a>
           </Button>
           <Button size="lg" variant="outline" className="bg-transparent border-white text-white hover:bg-white/10 hover:text-white" asChild>
