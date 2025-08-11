@@ -5,33 +5,7 @@ export const TV_UI_IMAGE_URL = '/images/1.png';
 export const STREAMING_STICK_IMAGE_URL = '/images/2.png';
 export const BLUETOOTH_REMOTE_IMAGE_URL = '/images/16.png';
 export const TRAVEL_FEATURES_IMAGE_URL = '/images/15.png';
-export const CTA_BACKGROUND_IMAGE_URL = 'https://placehold.co/1920x400.png';
-export const AVATAR_PLACEHOLDER_URL = 'https://placehold.co/100x100.png';
-
-
-export const testimonials = [
-  {
-    quote: "Swift180 has been a game-changer for our guest satisfaction scores. The setup was incredibly simple, and our guests love the personalized entertainment options.",
-    name: "Maria Rodriguez",
-    title: "General Manager, The Grand Hotel",
-    avatar: "MR",
-    image: AVATAR_PLACEHOLDER_URL
-  },
-  {
-    quote: "As a frequent traveler, I'm always disappointed by hotel TVs. Swift180 was a breath of fresh air. The AI recommendations for local restaurants were spot on!",
-    name: "David Chen",
-    title: "Business Traveler",
-    avatar: "DC",
-    image: AVATAR_PLACEHOLDER_URL
-  },
-  {
-    quote: "The ability to access my own Netflix and Prime accounts seamlessly made my stay feel so much more like home. A fantastic and much-needed innovation for hotels.",
-    name: "Emily White",
-    title: "Leisure Traveler",
-    avatar: "EW",
-    image: AVATAR_PLACEHOLDER_URL
-  }
-];
+export const CTA_BACKGROUND_IMAGE_URL = 'https://images.unsplash.com/photo-1495017790122-c765562a8917?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D';
 
 export const entertainmentItems = [
     {
