@@ -1,13 +1,13 @@
 import type { Metadata } from 'next';
 import { Toaster } from "@/components/ui/toaster";
-import { HERO_IMAGE_URL } from '@/lib/constants';
+import { OG_IMAGE_URL } from '@/lib/constants';
 import './globals.css';
 
 const siteConfig = {
   name: "Swift180",
   url: "https://swift180.com", // Replace with your actual domain
   description: "Swift180 instantly transforms hotel TVs into personalized 4K entertainment hubs with movies, games, AI-powered local guides, and seamless room service integration. Upgrade your guest experience.",
-  ogImage: HERO_IMAGE_URL,
+  ogImage: OG_IMAGE_URL,
 };
 
 export const metadata: Metadata = {

@@ -1,6 +1,7 @@
 import { Building2, Film, Gamepad2, MapPin, Plug, Radio, Ticket, Tv, UtensilsCrossed, Wifi, Calendar, Trophy, Palette, Landmark, ConciergeBell, PartyPopper } from 'lucide-react';
 
 export const HERO_IMAGE_URL = 'https://images.unsplash.com/photo-1585101806180-4ef6aae2403a?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D';
+export const OG_IMAGE_URL = 'https://images.unsplash.com/photo-1566073771259-6a8506099945?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D';
 export const TV_UI_IMAGE_URL = '/images/1.png';
 export const STREAMING_STICK_IMAGE_URL = '/images/2.png';
 export const BLUETOOTH_REMOTE_IMAGE_URL = '/images/16.png';
