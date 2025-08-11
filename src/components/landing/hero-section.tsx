@@ -3,6 +3,9 @@ import { Button } from '@/components/ui/button';
 import { HERO_IMAGE_URL } from '@/lib/constants';
 
 export default function HeroSection() {
+  const demoMailtoLink = "mailto:admin@swift180.com?subject=Request%20for%20Demo&body=I'm%20interested%20in%20a%20demo%20of%20Swift180.%20Please%20provide%20me%20with%20more%20information.";
+  const howItWorksMailtoLink = "mailto:admin@swift180.com?subject=How%20Swift180%20Works&body=I'd%20like%20to%20understand%20more%20about%20how%20Swift180%20works.";
+
   return (
     <section className="relative w-full py-20 md:py-32 lg:py-40 text-white">
       <Image
@@ -26,10 +29,10 @@ export default function HeroSection() {
         </p>
         <div className="flex flex-col gap-4 sm:flex-row">
           <Button size="lg" className="bg-background text-foreground hover:bg-background/90" asChild>
-            <a href="mailto:admin@swift180.com">Request a Demo</a>
+            <a href={demoMailtoLink}>Request a Demo</a>
           </Button>
           <Button size="lg" variant="outline" className="bg-transparent border-white text-white hover:bg-white/10 hover:text-white" asChild>
-            <a href="mailto:admin@swift180.com">How It Works</a>
+            <a href={howItWorksMailtoLink}>How It Works</a>
           </Button>
         </div>
       </div>
