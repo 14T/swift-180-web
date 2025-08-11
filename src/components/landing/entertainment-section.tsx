@@ -6,10 +6,10 @@ export default function EntertainmentSection() {
       <div className="container mx-auto px-4 md:px-6">
         <div className="flex flex-col items-center justify-center space-y-4 text-center">
           <div className="space-y-2">
-            <div className="inline-block rounded-lg bg-secondary/20 px-3 py-1 text-sm text-secondary-foreground font-medium">Premium Content</div>
-            <h2 className="font-headline text-3xl font-bold tracking-tighter sm:text-5xl">Endless 4K Entertainment</h2>
+            <div className="inline-block rounded-lg bg-secondary/20 px-3 py-1 text-sm text-secondary-foreground font-medium">Premium Content & Local Insights</div>
+            <h2 className="font-headline text-3xl font-bold tracking-tighter sm:text-5xl">Endless Entertainment, Tailored for Travel</h2>
             <p className="max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-              Give your guests access to a vast library of high-definition content. From blockbuster movies to the latest games, there's something for everyone.
+              From blockbuster movies to local cultural highlights, guests have access to a rich library of content that both entertains and informs their journey.
             </p>
           </div>
         </div>

@@ -1,4 +1,4 @@
-import { Building2, Film, Gamepad2, MapPin, Plug, Radio, Ticket, Tv, UtensilsCrossed, Wifi } from 'lucide-react';
+import { Building2, Film, Gamepad2, MapPin, Plug, Radio, Ticket, Tv, UtensilsCrossed, Wifi, Calendar, Trophy, Palette } from 'lucide-react';
 
 export const HERO_IMAGE_URL = 'https://images.unsplash.com/photo-1585101806180-4ef6aae2403a?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D';
 export const TV_UI_IMAGE_URL = '/images/1.png';
@@ -10,23 +10,23 @@ export const CTA_BACKGROUND_IMAGE_URL = 'https://images.unsplash.com/photo-14950
 export const entertainmentItems = [
     {
         icon: Film,
-        title: "Movies",
-        description: "Latest releases and timeless classics."
+        title: "Movies & TV",
+        description: "Latest releases and binge-worthy series."
     },
     {
-        icon: Tv,
-        title: "TV Shows",
-        description: "Binge-worthy series and popular shows."
+        icon: Calendar,
+        title: "Local Events",
+        description: "Discover festivals, concerts, and markets."
     },
     {
-        icon: Radio,
-        title: "Radio & Podcasts",
-        description: "Global stations and trending podcasts."
+        icon: Trophy,
+        title: "Sports & Recreation",
+        description: "Find local games and outdoor activities."
     },
     {
-        icon: Gamepad2,
-        title: "Games",
-        description: "Casual games for all ages."
+        icon: Palette,
+        title: "Cultural Highlights",
+        description: "Explore local etiquette, art, and history."
     }
 ];
 
