@@ -1,10 +1,10 @@
 import { Building2, Film, Gamepad2, MapPin, Plug, Radio, Ticket, Tv, UtensilsCrossed, Wifi } from 'lucide-react';
 
-export const HERO_IMAGE_URL = 'https://images.unsplash.com/photo-1584132967334-10e028bd69f7?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D';
-export const TV_UI_IMAGE_URL = '/images/5.png';
-export const STREAMING_STICK_IMAGE_URL = 'https://placehold.co/600x400.png';
-export const BLUETOOTH_REMOTE_IMAGE_URL = 'https://placehold.co/600x400.png';
-export const TRAVEL_FEATURES_IMAGE_URL = 'https://placehold.co/600x600.png';
+export const HERO_IMAGE_URL = 'https://images.unsplash.com/photo-1585101806180-4ef6aae2403a?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D';
+export const TV_UI_IMAGE_URL = '/images/1.png';
+export const STREAMING_STICK_IMAGE_URL = '/images/2.png';
+export const BLUETOOTH_REMOTE_IMAGE_URL = '/images/16.png';
+export const TRAVEL_FEATURES_IMAGE_URL = '/images/15.png';
 export const CTA_BACKGROUND_IMAGE_URL = 'https://placehold.co/1920x400.png';
 export const AVATAR_PLACEHOLDER_URL = 'https://placehold.co/100x100.png';
 

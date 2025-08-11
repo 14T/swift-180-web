@@ -5,7 +5,7 @@ import TransformationSection from '@/components/landing/transformation-section';
 import OnboardingSection from '@/components/landing/onboarding-section';
 import EntertainmentSection from '@/components/landing/entertainment-section';
 import StreamingAppsSection from '@/components/landing/streaming-apps-section';
-import TestimonialsSection from '@/components/landing/testimonials-section';
+import DifferenceSection from '@/components/landing/difference-section';
 import TravelFeaturesSection from '@/components/landing/travel-features-section';
 import CtaSection from '@/components/landing/cta-section';
 import Footer from '@/components/landing/footer';
@@ -22,7 +22,7 @@ export default function Home() {
         <EntertainmentSection />
         <StreamingAppsSection />
         <OnboardingSection />
-        <TestimonialsSection />
+        <DifferenceSection />
         <CtaSection />
       </main>
       <Footer />
