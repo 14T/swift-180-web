@@ -28,7 +28,7 @@ export default function HeroSection() {
           <Button size="lg" className="bg-accent text-accent-foreground hover:bg-accent/90" asChild>
             <a href="#cta">Request a Demo</a>
           </Button>
-          <Button size="lg" variant="outline" className="border-white text-white hover:bg-white/10" asChild>
+          <Button size="lg" variant="secondary" asChild>
             <a href="#transformation">How It Works</a>
           </Button>
         </div>
