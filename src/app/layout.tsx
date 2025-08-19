@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import { Toaster } from "@/components/ui/toaster";
 import { OG_IMAGE_URL } from '@/lib/constants';
 import './globals.css';
+import { Analytics } from '@vercel/analytics/next';
 
 const siteConfig = {
   name: "Swift180",
@@ -74,6 +75,7 @@ export default function RootLayout({
       <body className="font-body antialiased">
         {children}
         <Toaster />
+        <Analytics />
       </body>
     </html>
   );
